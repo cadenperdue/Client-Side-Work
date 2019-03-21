@@ -1,0 +1,23 @@
+#classList{
+    list-style-image: url("arrow.gif");
+}
+#menu li{
+    font-family: sans-serif;
+    display: inline;
+    border-collapse: separate;
+    border-left-style: solid;
+    padding: 10px;
+    border-width: 2px;
+}
+#resume{
+    border-collapse: separate;
+    border-right-style: solid;
+    padding: 10px;
+    border-width: 2px;
+}
+a:hover{
+    color: magenta;
+}
+a{
+    color: black;
+}

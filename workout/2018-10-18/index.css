@@ -1,0 +1,45 @@
+*{ 
+    background-color: #f4cf2c;
+}
+body{
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;    
+   
+}
+#pictureAndContact{
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid;
+}
+#contact{
+    float: left;
+    font-size: 18px;
+    margin-top: 50px;
+}
+#me{
+    float: right;
+}
+#selfie{
+    height:200px;
+    width:200px;
+}
+nav{
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+    border-bottom: 1px solid;
+}
+#menuBar li{
+    display: inline;
+    padding: 10px; 
+    font-size: 20px;
+}
+#menuBar ul{
+    margin: 0;
+    padding: 0;
+}
+

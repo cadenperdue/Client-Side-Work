@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Dog Tricks </title>
+   <script src = "dog.js"></script> 
+</head>
+<body>
+    <h1>Dog Tricks</h1>
+    <h2>My Dog</h2>
+    <form> 
+        Enter a name for the dog: <br>
+        <input type = "text" id="dogName"><br>
+        Enter a breed for the dog: <br>
+        <input type = "text" id = "dogBreed"><br>
+        Enter the year the dog was born: <br>
+        <input type = "number" id = "dogYear" min = "1988" max = "2018"> <br>
+        Enter the month the dog was born in (in number form): <br>
+        <input type = "number" id = "dogMonth" min = "1" max = "12"> <br>
+        Enter the day the dog was born on: <br>
+        <input type = "number" id = "dogDay" min = "1" max = "31"><br>
+        What trick would you like the dog to do: <br>
+        <select id = "trk">
+            <option value ="sit">Sit</option>
+            <option value ="fetch">Fetch</option>
+            <option value ="shake">Shake</option>
+            <option value ="down">Down</option>
+        </select> <br> <br>
+        <input id="dogButton" type="button" value="Update">
+        
+    </form>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th id = "name"></th>
+        </tr>
+        <tr>
+            <th>Breed</th>
+            <th id = "breed"></th>
+        </tr>
+        <tr>
+            <th>Birthday</th>
+            <th id = "birthday"></th>
+        </tr>
+        <tr>
+            <th>Tricks</th>
+            <th id = "tricks"></th>
+        </tr>
+     </table>
+    <script src = "mydog.js"></script>
+</body>
+<html>

@@ -1,0 +1,20 @@
+.headingColumn{
+    background-color: aqua;
+}
+.headingRow{
+    background-color: lightgreen;
+}
+.extreme{
+    background-color: #c63800;
+}
+
+.danger{
+    background-color: red;
+}
+
+.caution{
+    background-color: #f4b042;
+}
+.ok{
+    background-color: #ffd866;
+}

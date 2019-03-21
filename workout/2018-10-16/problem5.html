@@ -1,0 +1,96 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Positioning Classwork</title>
+        <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-color: #ECECEC;
+            font-weight: bold;
+            font-family: Tahoma, Geneva, sans-serif;
+            color: #FFF;
+            text-align: center;
+            line-height: 24px;
+        }
+        #wrapper {
+            background-color: #FFF;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            width: 700px;
+            height: 475px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 150px;
+        }
+        #red {
+            position: absolute;
+            margin-top: 25px;
+            margin-left: 25px;
+            background-color: #900;
+            width: 300px;
+            height: 175px;
+            z-index: 1;
+        }
+        #green {
+            background-color: #090;
+            position: absolute;
+            margin-top: 75px;
+            margin-left: 75px;
+            width: 300px;
+            height: 175px;
+            z-index: 2;
+        }
+        #blue {
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 150px; 
+            background-color: #00F;
+            height: 175px;
+            width: 300px;
+            z-index: 3;
+        }
+        #purple {
+            position: absolute;
+            margin-top: 225px;
+            margin-left: 225px;
+            background-color: #63C;
+            height: 175px;
+            width: 300px;
+            z-index: 4;
+        }
+        #footer {
+            position: absolute;
+            margin-top: 425px;
+            margin-left: 25px;
+            background-color: #666;
+            width: 650px;
+            
+        }
+        h1 {
+            color: #000;
+            font-weight: normal;
+            padding: 50px;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>ZPositioning</h1>
+            <div id="wrapper">
+            <div id="red">Red</div>
+            <div id="green">Green</div>
+            <div id="blue">Blue</div>
+            <div id="purple">Purple</div>
+            <div id="footer">Footer</div>
+        </div>
+</body>
+</html>

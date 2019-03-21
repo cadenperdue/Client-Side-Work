@@ -1,0 +1,26 @@
+table{
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+    border-collapse: collapse; 
+}
+thead tr th{
+    border-top: 2px solid #00008B;
+    border-bottom: 2px solid #00008B;
+    color: orange;
+    text-align: left;
+    
+}
+td{
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.zebra:nth-child(odd)
+{
+    background: #CCC;
+}
+tr:first{
+    background: white;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Boone Weather Conditions</title>
+    <meta charset="UTF-8">
+    <link href="weather.css" rel="stylesheet">
+    <script src =  "http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src= "ajax2.js"></script>
+ </head>
+ <body>
+    <h1>Current Weather Conditions</h1>
+    <table>
+        <tr class = "trs">
+            <td>Location</td>
+            <td>Boone, NC</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td id="weatherDate"></td>
+        </tr>
+        <tr>
+            <td>Temperature</td>
+            <td id="weatherTemperature"></td>
+        </tr>
+        <tr>
+            <td>Today's High</td>
+            <td id="weatherHigh"></td>
+        </tr>
+        <tr>
+            <td>Today's Low</td>
+            <td id="weatherLow"></td>
+        </tr>
+        <tr>
+            <td>Humidity</td>
+            <td id="weatherHumidity"></td>
+        </tr>
+            <td>Rain Today</td>
+            <td id="weatherRain"></td>
+        </tr>
+        <tr>
+            <td>Wind speed</td>
+            <td id="weatherWindspeed"></td>
+        </tr>
+    </table>
+    <button id="weatherRefresh" type="button">Refresh Conditions</button>
+ </body>
+</html>

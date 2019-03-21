@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title> Contact Us </title>
+
+</head>
+
+<body>
+        <h1> Contact Us </h1>
+        <form action = "http://student2.cs.appstate.edu/crr/3440/homework/h3/contact/" method = "post"> 
+        <fieldset>
+        <table>
+        <thead></thead>
+        <tbody>
+            <tr>
+                   <td> <label for = "emailTo"> To </label> </td> 
+                   <td><input type="text" name="emailTo" value="Acme Corporation" readonly> </td>
+            </tr>
+            <tr>    
+                <td><label for = "emailFrom"> Your email address </label></td>
+                <td><input type = "email" name="emailFrom" required></td>
+            </tr>
+            <tr>
+                <td><label for = "emailBody"> Your Message </label></td>
+                <td><textarea name="emailBody" required 
+                    cols="50" rows ="15">
+                    </textarea></td>
+        </tr>
+        </tbody>
+        </table>
+        </fieldset>
+         
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td><label for = "referrer">How did you hear <br> about us? </label></td>
+                    <td> <select name = referrer>
+                <option value = "other"> Other </option>
+                <option value = "ad"> Ad </option>
+                <option value = "newspaper"> Newspaper </option>
+                <option value = "friend">Friend </option>
+                <option value = "google"
+                    selected = "selected"> Google </option>
+                    </select></td>
+                </tr>
+        
+            <tr>
+                <td><label for = "checkbox"> Newsletter </label></td>
+                <td><input type="checkbox" name="newsletter" value="yes"> Check if you would like to recieve email updates.</td>
+            </tr>
+         </tbody>
+         </table>
+       
+        <table>
+        <thead> </thead>
+        <tbody>
+        <tr>
+           <td> <label for = "rating"> How well do you rate the information on this site (1 is poor and 5 is good)? </label></td>
+           <td> <input type="radio" name = "rating" value="1"> 1
+            <input type ="radio" name = "rating" value = "2"> 2
+            <input type = "radio" name = "rating" value = "3"> 3
+            <input type = "radio" name = "rating" value = "4"> 4
+            <input type = "radio" name = "rating" value = "5"> 5 </td>
+        </tr>
+        </tbody>
+        </table>
+
+            <input type = "submit" value = "Send Message">
+        </form>
+
+</body>
+</html>

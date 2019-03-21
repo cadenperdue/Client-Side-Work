@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+h1{
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    padding: 40px;
+}
+
+p:first-of-type{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:lightgrey;
+    padding: 10px;
+    text-align:center;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+p{
+    margin-bottom: 20px;
+    background-color:lightgrey;
+    padding: 10px;
+    text-align: center;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+button{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: #4286f4;
+    border: black;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 18px;
+}
+em{
+    background-color: #B0E0E6;
+}
+em:after{
+    background-color: #B0E0E6;
+    content: "(and this a big however)";
+}
+
+strong{
+    background-color: #B0E0E6;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}

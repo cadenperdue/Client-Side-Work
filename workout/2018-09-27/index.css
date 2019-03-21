@@ -1,0 +1,58 @@
+@font-face{
+        font-family: 'Amble';
+        src: url('Amble-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'AmbleBold';
+    src: url('Amble-Bold.ttf');
+}
+
+body{
+    background-color: grey;
+}
+#first{
+    font-family: Amble, AmbleBold, monotype;
+    font-size: 1.7em;  
+    text-transform: uppercase;
+    text-align: center; 
+    letter-spacing: -2px; 
+}
+
+#second{
+    font-family: AmbleBold, Amble, monotype;
+    font-size: 1.7em;
+    word-spacing: 0.3em;
+    text-align: center;
+}
+p:first-of-type{
+    color: blue;
+}
+
+p{
+    text-shadow: 1px 1px 3px #666666;
+}
+span:nth-of-type(2){
+    text-transform: capitalize;
+}
+span:first-of-type{
+    font-weight: bold;
+}
+span[go]{
+    text-decoration: line-through
+}
+span > span{
+    font-weight: normal;
+}
+span span{
+    font-weight: normal;
+}
+span + span{
+    font-weight: normal;
+}
+span ~ span{
+    font-weight:normal;
+}
+span:first-line{
+    font-weight:normal;
+}

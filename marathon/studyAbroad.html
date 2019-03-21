@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Marathon Project</title>
+    <link rel='stylesheet' href='studyAbroad.css'>
+</head>
+<body>
+    <div id = "topBorder">
+    </div>
+<!-- Project/ASU Pics goes here -->
+    <header class="headers" role="banner">
+        <img id = "logo" src = "images/logo.jpg" />
+        <hgroup>
+            <h1 id="site-title"><a href="https://qep.appstate.edu/" title="Office of the Quality Enhancement Plan homepage">
+                Office of the Quality Enhancement Plan</a>
+            </h1>
+            <h2 id="university-title"><a href="http://www.appstate.edu/" title="Appalachian State University">
+                Appalachian State University</a>
+            </h2>
+         </hgroup>
+    </header>
+    
+    <nav>
+        <ul class="menu">
+        <li class="collapsed first"><a href="https://qep.appstate.edu/about" title="About">About</a></li>
+        <li class="leaf"><a href="https://qep.appstate.edu/goals-outcomes" title="Goals and Outcomes">Goals &amp; Outcomes</a></li>
+        <li class="collapsed"><a href="http://qep.appstate.edu/grants" title="Funding">Funding</a></li>
+        <li class="collapsed"><a href="https://qep.appstate.edu/curricular-actions" title="Curricular Actions">Curricular Actions</a></li>
+        <li class="collapsed"><a href="https://qep.appstate.edu/training-development" title="Training and Development">Training &amp; Development</a></li>
+        <li class="collapsed"><a href="https://qep.appstate.edu/assessment" title="Assessment">Assessment</a></li>
+        <li class="leaf"><a href="https://qep.appstate.edu/contact" title="">Contact</a></li>
+        </ul>
+    </nav>
+    <div id = "subNavBar">
+        <a href="http://student2.cs.appstate.edu/lintonpj/cs3440/marathon/mainpage.html">Home</a> &gt Study Abroad 
+    </div>
+    
+    
+    <div id = "lowerInfo"> 
+        <h2 id = "studyAbroadTitle"> 
+            Search Study Abroad Opportunities 
+        </h2>
+        <div id = "quickInfo">
+            This database will provide information regarding study abroad opportunities to our students here at Appalachian State. 
+            <br> <br>
+        </div>
+        <form>
+            <table id = "formTable">
+                <!-- action and method for form will be updated when next part of project is assigned -->
+                <tr>
+                    <th>
+                        Select a term
+                    </th>
+                
+                    <td>
+                        <select id = "schoolYear">
+                            <option value = "18-19"> 2018-2019 </option>
+                            <option value = "19-20"> 2019-2020 </option>
+                            <option value = "20-21"> 2020-2021 </option>
+                            <option value = "21-22"> 2021-2022 </option>
+                        </select>
+                     </td>
+                </tr>
+                <tr>
+                    <th>
+                        Select a semester
+                    </th>
+                    <td>
+                        <select id = "semester">
+                            <option value = "fall"> Fall </option>
+                            <option value = "spring"> Spring </option> 
+                        </select>
+                    </td> 
+                </tr>
+                <tr>
+                    <th>
+                        Select your program
+                    </th>
+                    <td>
+                        <select id = "program">
+                            <option value = "CScholarsIreland"> Chancellor's Scholars Ireland </option>
+                            <option value = "WScholarsCosta"> Wilson Scholars Costa Rica </option>
+                            <option value = "IEThailand"> International Experience Thailand </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Select a country
+                    </th>
+                    <td>
+                        <select id = "pickedCountry">
+                            <option value = "GB"> Great Britain </option>
+                            <option value = "France"> France </option>
+                            <option value = "Thailand"> Thailand </option>
+                        </select>
+                    </td>
+                <tr>
+            </table>
+            
+            <input id ="submitButton" type = "submit" value = "Search">
+        </form>
+        </div>        
+</body>
+</html>
